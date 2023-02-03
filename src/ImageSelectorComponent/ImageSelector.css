@@ -1,20 +1,25 @@
-.imageGallery{
+.imageGallery {
     display: flexbox;
     align-self: center;
-    width:80%;
-    height:30%;
-    
+    width: 100%;
+    height: 30%;
+    border: 1px solid #ddd;
 
-    
+
+
 }
 
-.individualImage{
-    border: 1px solid #ddd; /* Gray border */
-    border-radius: 4px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 150px; /* Set a small width */
+.individualImage {
+    border: 1px solid #ddd;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded border */
+    padding: 5px;
+    /* Some padding */
+    width: 150px;
+    /* Set a small width */
 }
 
 .individualImage:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  }
+    box-shadow: 0 0 10px 1px rgba(0, 140, 186, 0.5);
+}

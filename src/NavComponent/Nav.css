@@ -1,0 +1,33 @@
+#navBar {
+
+    width: 100%;
+    height: 6%;
+    margin: 0 auto;
+
+    background-color: #252A38;
+    top: 0;
+    position: absolute;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+}
+
+#navBarIcon {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+
+
+
+
+}
+
+.navBarLine {
+    background-color: white;
+    width: 20px;
+    height: 3px;
+    margin-bottom: 3px;
+}

@@ -10,8 +10,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "@types/react-test-renderer": "^18.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-test-renderer": "^18.2.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",

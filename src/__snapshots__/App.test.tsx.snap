@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Component Should match snapshot without src prop 1`] = `
+<div
+  id="div-main"
+>
+  <img
+    className="displayPhoto"
+    src="https://picsum.photos/id/223/1600/900.jpg"
+  />
+</div>
+`;
